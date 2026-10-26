@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "algobharat-p2p-energy-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Algorand",
+        "PROJECT_TICKER": "ABSOLAR"
+      },
+      "tools": [
+        {
+          "name": "verify_absolar_invariants",
+          "description": "Verifies deterministic invariants for AlgoBharat P2P Energy AI on Algorand."
+        },
+        {
+          "name": "execute_absolar_action",
+          "description": "Executes authenticated Energy state transition."
+        }
+      ]
+    }
+  }
+}

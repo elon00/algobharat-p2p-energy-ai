@@ -1,0 +1,9 @@
+[package]
+name = "algobharat-p2p-energy-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Solar micro-grid trading and smart metering protocol"
+license = "MIT"
+
+[dependencies]
